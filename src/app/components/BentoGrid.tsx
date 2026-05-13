@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Award, Heart, Trophy } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import profilePhoto from '../../imports/z7815510812441_da5b79101fbf6b140525152bd6cd161a.jpg';
 
 export function BentoGrid() {
   return (
@@ -31,8 +32,8 @@ export function BentoGrid() {
           >
             <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-[#121212]/50 to-transparent z-10" />
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1738566061505-556830f8b8f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGFzaWFuJTIwbWFufGVufDF8fHx8MTc3ODU3MDc1MXww&ixlib=rb-4.1.0&q=80&w=1080"
-              alt="Hà Trần Phú Thành"
+              src={profilePhoto}
+              alt="Ảnh đại diện Creative Designer"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute bottom-6 left-6 z-20">
